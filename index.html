@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotless Hungry Crocodile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <navbar-wrapper class="navbar-wrapper">
+          <!--Navbar component-->
+          <header class="navbar-container1">
+            <header data-thq="thq-navbar" class="navbar-navbar-interactive">
+              <div class="navbar-container2">
+                <div data-thq="thq-navbar-nav" class="navbar-desktop-menu">
+                  <div class="navbar-container3">
+                    <nav class="navbar-links1"></nav>
+                  </div>
+                  <div class="navbar-buttons1"></div>
+                </div>
+                <span class="thq-link thq-body-small">
+                  <span>Schuszter Szabolcs Zoltán</span>
+                </span>
+              </div>
+              <div data-thq="thq-burger-menu" class="navbar-burger-menu"></div>
+              <div data-thq="thq-mobile-menu" class="navbar-mobile-menu">
+                <div class="navbar-nav">
+                  <div class="navbar-top">
+                    <img
+                      alt="Personal Logo"
+                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+                      class="navbar-logo"
+                    />
+                    <div data-thq="thq-close-menu" class="navbar-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="navbar-icon1">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="navbar-links2">
+                    <span class="thq-link thq-body-small">
+                      <span>Schuszter Szabolcs Zoltán</span>
+                    </span>
+                    <span class="thq-link thq-body-small">
+                      <span>About</span>
+                    </span>
+                    <span class="thq-link thq-body-small">
+                      <span>Projects</span>
+                    </span>
+                    <span class="thq-link thq-body-small">
+                      <span>Resume</span>
+                    </span>
+                    <span class="thq-link thq-body-small">
+                      <span>Contact</span>
+                    </span>
+                  </nav>
+                </div>
+                <div class="navbar-buttons2">
+                  <button class="thq-button-filled">Login</button>
+                  <button class="thq-button-outline">Register</button>
+                </div>
+              </div>
+            </header>
+          </header>
+        </navbar-wrapper>
+        <contact-wrapper class="contact-wrapper">
+          <!--Contact component-->
+          <div class="contact-contact20 thq-section-padding contact">
+            <div class="contact-max-width thq-section-max-width">
+              <div class="contact-section-title">
+                <div class="contact-content1">
+                  <h2 class="thq-heading-2"><span>Email</span></h2>
+                </div>
+              </div>
+              <div class="contact-row">
+                <div class="contact-content2">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="thq-icon-medium contact-icon1"
+                  >
+                    <path
+                      d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                    ></path>
+                  </svg>
+                  <div class="contact-contact-info">
+                    <div class="contact-content3">
+                      <h3 class="contact-text2 thq-heading-3">Email</h3>
+                    </div>
+                    <a
+                      href="mailto:szabolcs.z@schuszter.net?subject="
+                      class="contact-email1"
+                    >
+                      <fragment class="home-fragment1">
+                        <span class="home-email thq-body-small">
+                          <span>szabolcs.z@schuszter.net</span>
+                          <br />
+                        </span>
+                      </fragment>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </contact-wrapper>
+        <testimonial-wrapper
+          class="testimonial-wrapper"
+          rootclassname="testimonialundefined"
+        >
+          <!--Testimonial component-->
+          <div class="thq-section-padding testimonialroot-class-name">
+            <div class="thq-animated-card-bg-2">
+              <div class="testimonial-accent1-bg1 thq-animated-card-bg-1"></div>
+            </div>
+            <div class="testimonial-max-width thq-section-max-width">
+              <div class="thq-grid-2">
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="testimonial-card1 thq-card"
+                    >
+                      <span>
+                        <fragment class="home-fragment2">
+                          <span class="home-text12 thq-body-small">
+                            <span>
+                              Mérnökinformatikus hallgató vagyok a Pannon
+                              Egyetemen.
+                            </span>
+                            <br />
+                            <span>
+                              Unalmamban számítógépeket szoktam bütykölni.
+                            </span>
+                            <br />
+                            <span>
+                              Gazdaságinformatikusnak tanultam Technikumban.
+                            </span>
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <div
+                      data-animated="true"
+                      class="thq-card testimonial-card2"
+                    >
+                      <div class="testimonial-container11">
+                        <div class="testimonial-container12"></div>
+                      </div>
+                      <span>
+                        <fragment class="home-fragment3">
+                          <span class="home-text18 thq-body-small">
+                            <span>
+                              Emailen, vagy az alábbi elérhetőségeken
+                              kereshetsz!
+                            </span>
+                            <br />
+                          </span>
+                        </fragment>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <a
+                      href="https://github.com/Spoooooooooky"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-animated="true"
+                        class="testimonial-card3 thq-card"
+                      >
+                        <div class="testimonial-container13">
+                          <svg width="48" height="48" viewBox="0 0 48 48">
+                            <path
+                              d="M29.344 30.477c2.404-.5 4.585-1.366 6.28-2.638C38.52 25.668 40 22.314 40 19c0-2.324-.881-4.494-2.407-6.332c-.85-1.024 1.636-8.667-.573-7.638c-2.21 1.03-5.45 3.308-7.147 2.805A20.7 20.7 0 0 0 24 7c-1.8 0-3.532.223-5.147.634C16.505 8.232 14.259 6 12 5.03c-2.26-.97-1.026 6.934-1.697 7.765C8.84 14.605 8 16.73 8 19c0 3.314 1.79 6.668 4.686 8.84c1.93 1.446 4.348 2.368 7.054 2.822m0 0q-1.738 1.913-1.738 3.632v8.717m11.343-12.534q1.646 2.16 1.646 3.88v8.654M6 31.216q1.349.165 2 1.24c.652 1.074 3.074 5.062 5.825 5.062h4.177"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="4"
+                              stroke-linecap="round"
+                            ></path>
+                          </svg>
+                          <div class="testimonial-container14">
+                            <strong class="thq-body-large">
+                              <span>Github</span>
+                            </strong>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <a
+                      href="https://signal.me/#eu/S7s7gj5ELdXghFD76G23XC0kVshg1q8XSOC72i79PD4YZkf-9F5N5LwvVdR6XtOC"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-animated="true"
+                        class="testimonial-card4 thq-card"
+                      >
+                        <div class="testimonial-container15">
+                          <svg width="48" height="48" viewBox="0 0 48 48">
+                            <defs>
+                              <mask id="ipSMessagesOne0">
+                                <g fill="none" stroke-width="4">
+                                  <path
+                                    d="M39 6H9a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3Z"
+                                    fill="#fff"
+                                    stroke="#fff"
+                                  ></path>
+                                  <path
+                                    d="M34 23c0 3.862-2.703 7.157-6.5 8.433c-1.09.367-2.269.567-3.5.567c-4 0-9 2-9 2l1.132-2.446c.563-1.216.204-2.63-.57-3.723C14.572 26.436 14 24.778 14 23c0-4.97 4.477-9 10-9s10 4.03 10 9Z"
+                                    fill="#000"
+                                    stroke="#000"
+                                    stroke-linejoin="round"
+                                  ></path>
+                                </g>
+                              </mask>
+                            </defs>
+                            <path
+                              d="M0 0h48v48H0z"
+                              fill="currentColor"
+                              mask="url(#ipSMessagesOne0)"
+                            ></path>
+                          </svg>
+                          <div class="testimonial-container16">
+                            <strong>
+                              <fragment class="home-fragment4">
+                                <span class="home-text21 thq-body-large">
+                                  Signal Messenger
+                                </span>
+                              </fragment>
+                            </strong>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <a
+                      href="https://drive.google.com/drive/folders/1rx6peUCfBeK7pVEpwGqGLH64foEBe0oo?usp=sharing"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-animated="true"
+                        class="testimonial-card5 thq-card"
+                      >
+                        <div class="testimonial-container17">
+                          <svg width="48" height="48" viewBox="0 0 24 24">
+                            <path
+                              d="M7.71 3.5L1.15 15l3.43 6l6.55-11.5M9.73 15L6.3 21h13.12l3.43-6m-.57-1L15.42 2H8.57l6.86 12z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                          <div class="testimonial-container18">
+                            <strong>
+                              <fragment class="home-fragment5">
+                                <span class="home-text22 thq-body-large">
+                                  <span>Drive</span>
+                                  <br />
+                                </span>
+                              </fragment>
+                            </strong>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="thq-animated-card-bg-2">
+                  <div class="thq-animated-card-bg-1">
+                    <a
+                      href="https://fmhy.net/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <div
+                        data-animated="true"
+                        class="testimonial-card6 thq-card"
+                      >
+                        <div class="testimonial-container19">
+                          <svg width="48" height="48" viewBox="0 0 32 32">
+                            <path
+                              d="M7 28a1 1 0 0 1-1-1V5a1 1 0 0 1 1.482-.876l20 11a1 1 0 0 1 0 1.752l-20 11A1 1 0 0 1 7 28M8 6.69v18.62L24.925 16Z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                          <div class="testimonial-container20">
+                            <strong>
+                              <fragment class="home-fragment6">
+                                <span class="home-text25 thq-body-large">
+                                  <span>FMHY</span>
+                                  <br />
+                                </span>
+                              </fragment>
+                            </strong>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </testimonial-wrapper>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
